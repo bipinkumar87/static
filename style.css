@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    
+}
+.navbar_container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #E7E4DE;
+    width: 100%;
+    
+}
+.navbar_menu{
+    display: flex;
+    float:right;
+    position: sticky;
+    z-index: 999;
+}
+.navbar_menu a{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: 2px solid rgb(244, 181, 181);
+    padding: 10px;
+    border-radius: 50px;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+.navbar_menu li{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin-right: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#navbar_logo{
+    margin: 10px;
+    text-decoration: none;
+    background-color: rgb(242, 164, 122);
+    background-image: linear-gradient(to top,rgb(191, 133, 133),rgb(147, 147, 230));
+    background-size: 100%;
+    -webkit-background-clip:text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: 600;
+    border: 2px solid rgb(10, 20, 138);
+    border-radius: 50px;
+    padding: 3px;
+    
+}
+.button{
+    padding: 10px 20px;
+    width: 100px;
+    border: none;
+    outline: none;
+    background: blue;
+    background: -webkit-linear-gradient(to right ,rgb(246, 246, 167),rgb(240, 150, 150),rgb(149, 149, 250));
+    background: linear-gradient(to right,rgb(241, 241, 130),rgb(244, 138, 138),rgb(132, 132, 210));
+    color: white;
+    transition: all 0.3s ease;
+}
+.navbar_links:hover{
+    background-color: rgb(146, 146, 245);
+    transition: all 0.3s ease;
+    color: white;
+}
