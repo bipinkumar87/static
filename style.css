@@ -76,3 +76,34 @@
     transition: all 0.3s ease;
     color: white;
 }
+.navbar_toggle{
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center;
+    justify-content: center; */
+    align-items: center;
+}
+.cont{
+    color: green;
+    background-color: aquamarine;
+    background-image:linear-gradient(to top,rgb(2, 33, 2),rgb(102, 246, 102));
+    background-size: 100%;
+    -webkit-background-clip:text ;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+    font-size: 1.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.email{
+    color: blue;
+    background-color: blueviolet;
+    background-image: linear-gradient(to top,rgb(131, 131, 242),rgb(10, 136, 79),rgb(141, 245, 141));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
